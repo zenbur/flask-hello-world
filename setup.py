@@ -5,7 +5,9 @@ setup(
     version='0.1.0',
     long_description=__doc__,
     packages=['helloworld'],
-    include_package_data=True,
+    package_data = {
+        'helloworld': ['share/*', 'static/*', '/templates/*'],
+    },
     zip_safe=False,
     scripts=['run_helloworld.py'],
     install_requires=['Flask']
