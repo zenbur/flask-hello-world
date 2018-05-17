@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='ruben-flask-helloworld',
+    name='flask-ruben-helloworld',
     version='0.1.0',
     long_description=__doc__,
     packages=['ruben_helloworld'],
