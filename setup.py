@@ -4,7 +4,7 @@ setup(
     name='flask-helloworld',
     version='0.1.0',
     long_description=__doc__,
-    packages=['ruben_helloworld'],
+    packages=['helloworld'],
     package_data = {
         'helloworld': ['share/*', 'static/*', '/templates/*'],
     },
