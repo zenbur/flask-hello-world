@@ -9,6 +9,5 @@ setup(
         'helloworld': ['share/*', 'static/*', '/templates/*'],
     },
     zip_safe=False,
-    scripts=['run_helloworld.py'],
     install_requires=['Flask']
 )
