@@ -1,2 +1,1 @@
-from
-helloworld import app as application
+from helloworld import app as application
